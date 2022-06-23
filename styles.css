@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*******HEADER*******/
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.azul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #92dee2;
+    height: 12vh;
+    max-height: 150px;
+    min-height: 100px;
+}
+
+.logo img {
+    width: 30vh;
+}
+
+.search-box {
+    border: 0.1rem #949494  solid;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+
+.button {
+    border: 0.1rem #949494 solid;
+    color: #686868;
+    padding: 0.5rem 0.8rem;
+    border-radius: 2px;
+}
+
+nav {
+    border: 0.1rem #d6d6d6 solid;
+    background-color: #f7f7f7;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+nav ul li {
+    font-size: 0.9rem;
+    padding: 3vw;
+}
+
+/*******MAIN*******/
+
+main {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-right: #686868 solid 2px;
+    width: 50vw;
+    padding: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: #686868 solid 2px;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+select {
+    width: 30vh;
+}
+
+.rigth {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    width: 25vh;
+}
+
+.prod-name {
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;;
+}
+
+.prod-img img {
+    width: 12vw;
+    min-width: 200px;
+}
+
+.prod-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prod-price :nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.prod-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.prod-icons img {
+    width: 30px;
+}
+
+.fav, .buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*******FOOTER*******/

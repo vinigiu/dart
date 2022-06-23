@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout - WIP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <section class="azul">
+            <article class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </article>
+            <article class="search">
+                <form action="">
+                    <input type="search" class="search-box" placeholder="Digite a sua busca">
+                    <input type="button" class="button" value="Buscar">
+                </form>
+            </article>
+        </section>
+
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Feminino</li>
+                <li>Masculino</li>
+                <li>Infantil</li>
+                <li>Casa</li>
+                <li>Promoções</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="left">
+            <form id="atributos" action="post">
+                <article class="container">
+                    <label for="type">Tipos</label>
+                    <select name="type" id="type" size="6">
+                        <option value="boot">Bota</option>
+                        <option value="mocassim">Mocassim</option>
+                        <option value="sapatilha">Sapatilha</option>
+                        <option value="alpargata">Alpargata</option>
+                        <option value="crocs">Crocs</option>
+                        <option value="chuteira">Chuteira</option>
+                        <option value="chinelo">Chinelo</option>
+                    </select>
+                </article>
+
+                <article class="container">
+                    <label for="size">Tamanho</label>
+                    <select name="size" id="size" size="6">
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                    </select>
+                </article>
+                
+                <article class="container">
+                    <label for="">Marcas</label>
+                    
+                    <input type="checkbox" name="brand1" id="brand1" value="b1"><label for="brand1">Marca 1</label>
+
+                    <input type="checkbox" name="brand2" id="brand2" value="b2"><label for="brand2">Marca 2</label>
+
+                    <input type="checkbox" name="brand3" id="brand3" value="b3"><label for="brand3">Marca 3</label>
+
+                    <input type="checkbox" name="brand4" id="brand4" value="b4"><label for="brand4">Marca 4</label>
+                </article>
+            </form>
+        </section>
+
+        <section class="rigth">
+            <article class="product">
+                <div class="prod-name">
+                    Produto 1
+                </div>
+                <div class="prod-descr">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <div class="prod-img">
+                    <img src="./img/produto.jpg" alt="Tênis preto">
+                </div>
+                <div class="prod-price">
+                    <p>R$ 130,00</p>
+                    <p>Ou 2x de R$ 65,00</p>
+                </div>
+                <div class="prod-icons">
+                    <div class="fav">
+                        <img src="./img/favorite.png" alt="Favorito">
+                        <p>Favorito</p>
+                    </div>
+                    <div class="buy">
+                        <img src="./img/comprar.png" alt="Comprar">
+                        <p>Comprar</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="prod-name">
+                    Produto 2
+                </div>
+                <div class="prod-descr">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <div class="prod-img">
+                    <img src="./img/produto.jpg" alt="Tênis preto">
+                </div>
+                <div class="prod-price">
+                    <p>R$ 130,00</p>
+                    <p>Ou 2x de R$ 65,00</p>
+                </div>
+                <div class="prod-icons">
+                    <div class="fav">
+                        <img src="./img/favorite.png" alt="Favorito">
+                        <p>Favorito</p>
+                    </div>
+                    <div class="buy">
+                        <img src="./img/comprar.png" alt="Comprar">
+                        <p>Comprar</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="prod-name">
+                    Produto 3
+                </div>
+                <div class="prod-descr">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <div class="prod-img">
+                    <img src="./img/produto.jpg" alt="Tênis preto">
+                </div>
+                <div class="prod-price">
+                    <p>R$ 130,00</p>
+                    <p>Ou 2x de R$ 65,00</p>
+                </div>
+                <div class="prod-icons">
+                    <div class="fav">
+                        <img src="./img/favorite.png" alt="Favorito">
+                        <p>Favorito</p>
+                    </div>
+                    <div class="buy">
+                        <img src="./img/comprar.png" alt="Comprar">
+                        <p>Comprar</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="prod-name">
+                    Produto 4
+                </div>
+                <div class="prod-descr">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <div class="prod-img">
+                    <img src="./img/produto.jpg" alt="Tênis preto">
+                </div>
+                <div class="prod-price">
+                    <p>R$ 130,00</p>
+                    <p>Ou 2x de R$ 65,00</p>
+                </div>
+                <div class="prod-icons">
+                    <div class="fav">
+                        <img src="./img/favorite.png" alt="Favorito">
+                        <p>Favorito</p>
+                    </div>
+                    <div class="buy">
+                        <img src="./img/comprar.png" alt="Comprar">
+                        <p>Comprar</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="prod-name">
+                    Produto 5
+                </div>
+                <div class="prod-descr">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <div class="prod-img">
+                    <img src="./img/produto.jpg" alt="Tênis preto">
+                </div>
+                <div class="prod-price">
+                    <p>R$ 130,00</p>
+                    <p>Ou 2x de R$ 65,00</p>
+                </div>
+                <div class="prod-icons">
+                    <div class="fav">
+                        <img src="./img/favorite.png" alt="Favorito">
+                        <p>Favorito</p>
+                    </div>
+                    <div class="buy">
+                        <img src="./img/comprar.png" alt="Comprar">
+                        <p>Comprar</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="prod-name">
+                    Produto 6
+                </div>
+                <div class="prod-descr">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </div>
+                <div class="prod-img">
+                    <img src="./img/produto.jpg" alt="Tênis preto">
+                </div>
+                <div class="prod-price">
+                    <p>R$ 130,00</p>
+                    <p>Ou 2x de R$ 65,00</p>
+                </div>
+                <div class="prod-icons">
+                    <div class="fav">
+                        <img src="./img/favorite.png" alt="Favorito">
+                        <p>Favorito</p>
+                    </div>
+                    <div class="buy">
+                        <img src="./img/comprar.png" alt="Comprar">
+                        <p>Comprar</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
